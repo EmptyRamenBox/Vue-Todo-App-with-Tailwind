@@ -41,7 +41,7 @@
             v-for="(completed, index) in completedList"
             :key="index"
             @click="moveToPending(completed)"
-            class="text-center p-3 bg-orange-500 line-through text-red-900 mt-4 rounded shadow-lg cursor-pointer hover:bg-blue-800 hover:text-red-300">{{completed}}</li>
+            class="text-center p-3 bg-orange-600 line-through text-red-900 mt-4 rounded shadow-lg cursor-pointer hover:bg-blue-800 hover:text-red-300">{{completed}}</li>
 
           </ul>
         </div>
